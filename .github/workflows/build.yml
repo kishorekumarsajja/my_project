@@ -12,15 +12,16 @@ jobs:
     strategy:
       matrix:
         os: ["ubuntu-latest", "windows-latest", "Mac-OS"]
-  steps:
-    - name: checkout this yml to main branch
-      uses: actions/checkout@v4
 
-    - name: python setup in the github server
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.13' 
+    steps:
+      - name: checkout this yml to main branch
+        uses: actions/checkout@v4
 
-    - name: Run python script
-      run: python helloworld.py
+      - name: python setup in the github server
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13' 
+
+      - name: Run python script
+        run: python helloworld.py
       
