@@ -1,0 +1,15 @@
+---
+name: testing this file to call in another workflow
+
+on:
+  pull-request:
+    branch: ["main"]
+
+jobs:
+  test:  
+    runs-on: ubuntu-latest
+    
+
+    steps:
+      - name: to identify the file structure
+        run: ll -a 
