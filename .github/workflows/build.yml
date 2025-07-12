@@ -30,6 +30,6 @@ jobs:
       - name: Run python script
         run: python helloworld.py
 
-      - name: using list yml file
+      - name: reusing a file
         run: kishorekumarsajja_github/my_project_1/.github/workflows/blank.yml@V1.0
       
