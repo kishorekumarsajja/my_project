@@ -26,5 +26,5 @@ jobs:
         run: python helloworld.py
 
       - name: list of all files
-        run: kishorekumarsajja/list.yml
+        run: kishorekumarsajja/my_project_1:list.yml
       
