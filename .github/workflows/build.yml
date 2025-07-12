@@ -5,8 +5,10 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-  # workflow_call:  #It is used to share and reuse the workflows across the project or repos. 
+  workflow_call:  #It is used to share and reuse the workflows across the project or repos. 
   # workflow_dispatch: # when you want to manually trigger a workflow from the UI
+  schedule: 
+    - cron: '55 7 * * 6'
   
 
 jobs:
@@ -28,6 +30,6 @@ jobs:
       - name: Run python script
         run: python helloworld.py
 
-     # - name: list of all files
-     #   run: https://github.com/kishorekumarsajja/my_project_1/list.yml
+      - name: using list yml file
+        run: kishorekumarsajja/my_project_1/list.yml@v1
       
