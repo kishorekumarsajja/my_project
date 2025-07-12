@@ -24,4 +24,7 @@ jobs:
 
       - name: Run python script
         run: python helloworld.py
+
+      - name: list of all files
+        run: kishorekumarsajja/list.yml
       
