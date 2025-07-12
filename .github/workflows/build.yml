@@ -31,5 +31,5 @@ jobs:
         run: python helloworld.py
 
       - name: using list yml file
-        run: kishorekumarsajja/my_project_1/blank.yml@V1.0
+        run: kishorekumarsajja/my_project_1/.github/workflows/blank.yml@V1.0
       
