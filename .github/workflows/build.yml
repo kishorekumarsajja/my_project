@@ -28,6 +28,6 @@ jobs:
       - name: Run python script
         run: python helloworld.py
 
-      - name: list of all files
-        run: https://github.com/kishorekumarsajja/my_project_1/list.yml
+     # - name: list of all files
+     #   run: https://github.com/kishorekumarsajja/my_project_1/list.yml
       
