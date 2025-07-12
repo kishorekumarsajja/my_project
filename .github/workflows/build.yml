@@ -8,7 +8,7 @@ on:
   workflow_call:  #It is used to share and reuse the workflows across the project or repos. 
   # workflow_dispatch: # when you want to manually trigger a workflow from the UI
   schedule: 
-    - cron: '55 7 * * 6'
+    - cron: '0 8 * * 6'
   
 
 jobs:
@@ -31,5 +31,5 @@ jobs:
         run: python helloworld.py
 
       - name: using list yml file
-        run: kishorekumarsajja/my_project_1/.github/workflows/blank.yml@V1.0
+        run: kishorekumarsajja_github/my_project_1/.github/workflows/blank.yml@V1.0
       
