@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: ["main"]
   workflow_call:  #It is used to share and reuse the workflows across the project or repos. 
-  # workflow_dispatch: # when you want to manually trigger a workflow from the UI
+  workflow_dispatch: # when you want to manually trigger a workflow from the UI
   schedule: 
     - cron: '0 8 * * 6'
   
