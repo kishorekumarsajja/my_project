@@ -31,5 +31,5 @@ jobs:
         run: python helloworld.py
 
       - name: reusing a file
-        run: kishorekumarsajja_github/my_project_1/.github/workflows/blank.yml@vmain
+        run: kishorekumarsajja_github/my_project_1/.github/workflows/blank.yml@main
       
